@@ -1,0 +1,62 @@
+.meus-filmes{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meus-filmes h1{
+    margin-bottom: 14px;
+    color: whitesmoke;
+}
+
+.meus-filmes span{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.meus-filmes ul{
+    width: 720px;
+   
+}
+
+.meus-filmes ul li{
+    list-style: none;
+    display: flex;
+    
+   justify-content: space-between;
+   margin: 0 97px; /* Metade do espaço que você quer reduzir no centro */
+    
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.meus-filmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meus-filmes div a{
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+
+}
+
+.semfilmes{
+    font-size: 18px;
+    color: rgb(252, 0, 0);
+}
+
+.excluir{
+
+    color: whitesmoke;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+Header{
+
+    display: flex;
+    align-items: center;
+    left: -50px;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+    background-color: black;
+}
+
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: -10%;
+    cursor: pointer;
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.favoritos{
+    cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   padding: 8px 14px;
+   color: yellow;
+   border-radius: 6px;
+   border: solid 2px yellow;
+   text-decoration: none;
+}
+
+.favoritos:hover{
+
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+
+}
+
+
+.logo:hover{
+    color: whitesmoke;
+    
+}
